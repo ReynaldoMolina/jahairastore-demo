@@ -26,7 +26,7 @@ function Receipts() {
       <h1 className="register-title">Receipts</h1>
       {openModal || (
         <>
-          <ActionTools allowNew={false}/>
+          <ActionTools allowNew={false} size={data.length}/>
           {isLoading && <Loading/>}
           {isLoading || (
             <div className="flx flx-col register-list">

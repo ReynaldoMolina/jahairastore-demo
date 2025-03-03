@@ -31,18 +31,18 @@ const menuOptionsList = [
     url: baseUrl + 'providers/',
     divider: false
   },
-  {
-    id: 5,
-    name: "Purchases",
-    url: baseUrl + 'purchases/',
-    divider: false
-  },
-  {
-    id: 6,
-    name: "Expenses",
-    url: baseUrl + 'expenses/',
-    divider: true
-  },
+  // {
+  //   id: 5,
+  //   name: "Purchases",
+  //   url: baseUrl + 'purchases/',
+  //   divider: false
+  // },
+  // {
+  //   id: 6,
+  //   name: "Expenses",
+  //   url: baseUrl + 'expenses/',
+  //   divider: true
+  // },
   {
     id: 7,
     name: "Products",
@@ -66,11 +66,11 @@ const menuOptionsList = [
     name: "Settings",
     divider: false
   },
-  {
-    id: 10,
-    name: "Log out",
-    divider: false
-  }
+  // {
+  //   id: 10,
+  //   name: "Log out",
+  //   divider: false
+  // }
 ];
 
 export { menuOptionsList, baseUrl };

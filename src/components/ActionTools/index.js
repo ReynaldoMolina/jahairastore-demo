@@ -5,7 +5,7 @@ import deleteinput from "./deleteinput.svg";
 import "./ActionTools.css"
 import { DataContext } from "../Context/DataContext";
 
-function ActionTools({ allowNew = true }) {
+function ActionTools({ allowNew = true, size }) {
   const {
     searchValue, setSearchValue,
     setOpenModal,
@@ -37,6 +37,10 @@ function ActionTools({ allowNew = true }) {
         <button
           className={`flx flx-center action-btn ${allowNew || "hidden"}`}
           onClick={() => {
+            if (size > 4) {
+              alert('In this demo you can create up to 5 rows per table');
+              return;
+            }
             setRegisterId('');
             setIsNew(true);
             setOpenModal(true);

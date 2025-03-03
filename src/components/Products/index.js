@@ -24,7 +24,7 @@ function Products() {
       <h1 className="register-title">Products</h1>
       {openModal || (
         <>
-          <ActionTools/>
+          <ActionTools size={data.length}/>
           {isLoading && <Loading/>}
           {isLoading || (
             <div className="flx flx-col register-list">

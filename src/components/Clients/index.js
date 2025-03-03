@@ -25,7 +25,7 @@ function Clients() {
       <h1 className="register-title">Clients</h1>
       {openModal || (
         <>
-          <ActionTools/>
+          <ActionTools size={data.length}/>
           {isLoading && (
             <Loading/>
           )}

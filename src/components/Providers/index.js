@@ -24,7 +24,7 @@ function Providers() {
       <h1 className="register-title">Providers</h1>
       {openModal || (
         <>
-          <ActionTools/>
+          <ActionTools size={data.length}/>
           {isLoading && <Loading/>}
           {isLoading || (
             <div className="flx flx-col register-list">
