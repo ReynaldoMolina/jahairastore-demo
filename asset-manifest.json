@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jahairastore-demo/static/css/main.2a729208.css",
-    "main.js": "/jahairastore-demo/static/js/main.bcd05210.js",
+    "main.js": "/jahairastore-demo/static/js/main.d1a9b68f.js",
     "static/js/488.9d784508.chunk.js": "/jahairastore-demo/static/js/488.9d784508.chunk.js",
     "static/media/logo-sm.png": "/jahairastore-demo/static/media/logo-sm.5fbde61a2553dd8ff70f.png",
     "static/media/logo.png": "/jahairastore-demo/static/media/logo.9d728403c320515cb86f.png",
@@ -31,11 +31,11 @@
     "static/media/logout.svg": "/jahairastore-demo/static/media/logout.ba3421b06304784b8a7996a47e346b70.svg",
     "static/media/add.svg": "/jahairastore-demo/static/media/add.db6a1b393f18fab9302cffaee47df564.svg",
     "main.2a729208.css.map": "/jahairastore-demo/static/css/main.2a729208.css.map",
-    "main.bcd05210.js.map": "/jahairastore-demo/static/js/main.bcd05210.js.map",
+    "main.d1a9b68f.js.map": "/jahairastore-demo/static/js/main.d1a9b68f.js.map",
     "488.9d784508.chunk.js.map": "/jahairastore-demo/static/js/488.9d784508.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a729208.css",
-    "static/js/main.bcd05210.js"
+    "static/js/main.d1a9b68f.js"
   ]
 }
