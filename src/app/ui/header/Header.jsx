@@ -9,7 +9,7 @@ export default function Header({ children }) {
 
   const user = {
     username: 'Invitado',
-    pictureUrl: '/default-avatar.png'
+    pictureUrl: '/default-avatar.png',
   };
 
   return (
